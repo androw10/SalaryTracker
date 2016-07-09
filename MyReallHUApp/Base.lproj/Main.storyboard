@@ -101,6 +101,7 @@
                     <connections>
                         <outlet property="Work1" destination="tkI-wi-hAi" id="2eH-JJ-jPd"/>
                         <outlet property="Work2" destination="5YD-jC-3eE" id="U2V-IM-K7s"/>
+                        <outlet property="backAcc" destination="1Ct-y1-Hhc" id="RD3-8b-XtW"/>
                         <outlet property="showS" destination="aYi-cZ-5yS" id="H5T-cI-FPV"/>
                         <outlet property="tableView" destination="AZo-Ye-9eG" id="7lc-IJ-n85"/>
                     </connections>

@@ -25,7 +25,11 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
     var currentwdmrr = -1
     var currentwdmrrworkarr = -1
     
+    //Back Button outlet
+    @IBOutlet weak var backAcc: UIButton!
     
+    
+    // Label fo2 el TableView
     @IBOutlet weak var showS: UILabel!
     
     
@@ -39,7 +43,10 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        Work1.layer.cornerRadius = 5
+        Work2.layer.cornerRadius = 5
+        backAcc.layer.cornerRadius = 5
+
         //object that lets us acces the realm database we created
         let realm = try! Realm()
         

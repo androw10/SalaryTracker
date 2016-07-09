@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA6CD601D2E8A8F00321ACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA6CD5F1D2E8A8F00321ACA /* ViewController.swift */; };
+		AAE45AA91D2CA97700C8F2F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45AA81D2CA97700C8F2F3 /* AppDelegate.swift */; };
+		AAE45AAE1D2CA97700C8F2F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE45AAC1D2CA97700C8F2F3 /* Main.storyboard */; };
+		AAE45AB01D2CA97700C8F2F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAE45AAF1D2CA97700C8F2F3 /* Assets.xcassets */; };
+		AAE45AB31D2CA97700C8F2F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAE45AB11D2CA97700C8F2F3 /* LaunchScreen.storyboard */; };
+		AAE45ABE1D2CA97700C8F2F3 /* MyReallHUAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45ABD1D2CA97700C8F2F3 /* MyReallHUAppTests.swift */; };
+		AAE45AC91D2CA97700C8F2F3 /* MyReallHUAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45AC81D2CA97700C8F2F3 /* MyReallHUAppUITests.swift */; };
+		AAE45AD81D2CA99500C8F2F3 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE45AD61D2CA99500C8F2F3 /* Realm.framework */; };
+		AAE45AD91D2CA99500C8F2F3 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE45AD71D2CA99500C8F2F3 /* RealmSwift.framework */; };
+		AAE45ADA1D2CA99F00C8F2F3 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE45AD61D2CA99500C8F2F3 /* Realm.framework */; };
+		AAE45ADB1D2CA99F00C8F2F3 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAE45AD61D2CA99500C8F2F3 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAE45ADC1D2CA99F00C8F2F3 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE45AD71D2CA99500C8F2F3 /* RealmSwift.framework */; };
+		AAE45ADD1D2CA99F00C8F2F3 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAE45AD71D2CA99500C8F2F3 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AAE45AE11D2CAA2300C8F2F3 /* realmDBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45AE01D2CAA2300C8F2F3 /* realmDBManager.swift */; };
+		AAE45AE31D2D3C1500C8F2F3 /* workDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45AE21D2D3C1500C8F2F3 /* workDM.swift */; };
+		AAE45AE51D2D7C3100C8F2F3 /* ButtonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE45AE41D2D7C3100C8F2F3 /* ButtonClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAE45ABA1D2CA97700C8F2F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE45A9D1D2CA97600C8F2F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE45AA41D2CA97700C8F2F3;
+			remoteInfo = MyReallHUApp;
+		};
+		AAE45AC51D2CA97700C8F2F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAE45A9D1D2CA97600C8F2F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAE45AA41D2CA97700C8F2F3;
+			remoteInfo = MyReallHUApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAE45ADE1D2CA99F00C8F2F3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AAE45ADD1D2CA99F00C8F2F3 /* RealmSwift.framework in Embed Frameworks */,
+				AAE45ADB1D2CA99F00C8F2F3 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AAA6CD5F1D2E8A8F00321ACA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAE45AA51D2CA97700C8F2F3 /* MyReallHUApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReallHUApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE45AA81D2CA97700C8F2F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAE45AAD1D2CA97700C8F2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAE45AAF1D2CA97700C8F2F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAE45AB21D2CA97700C8F2F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAE45AB41D2CA97700C8F2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE45AB91D2CA97700C8F2F3 /* MyReallHUAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReallHUAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE45ABD1D2CA97700C8F2F3 /* MyReallHUAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReallHUAppTests.swift; sourceTree = "<group>"; };
+		AAE45ABF1D2CA97700C8F2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE45AC41D2CA97700C8F2F3 /* MyReallHUAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReallHUAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE45AC81D2CA97700C8F2F3 /* MyReallHUAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReallHUAppUITests.swift; sourceTree = "<group>"; };
+		AAE45ACA1D2CA97700C8F2F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAE45AD61D2CA99500C8F2F3 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		AAE45AD71D2CA99500C8F2F3 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		AAE45AE01D2CAA2300C8F2F3 /* realmDBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = realmDBManager.swift; sourceTree = "<group>"; };
+		AAE45AE21D2D3C1500C8F2F3 /* workDM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = workDM.swift; sourceTree = "<group>"; };
+		AAE45AE41D2D7C3100C8F2F3 /* ButtonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE45AA21D2CA97700C8F2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE45ADA1D2CA99F00C8F2F3 /* Realm.framework in Frameworks */,
+				AAE45AD91D2CA99500C8F2F3 /* RealmSwift.framework in Frameworks */,
+				AAE45ADC1D2CA99F00C8F2F3 /* RealmSwift.framework in Frameworks */,
+				AAE45AD81D2CA99500C8F2F3 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE45AB61D2CA97700C8F2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE45AC11D2CA97700C8F2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAE45A9C1D2CA97600C8F2F3 = {
+			isa = PBXGroup;
+			children = (
+				AAE45AA71D2CA97700C8F2F3 /* MyReallHUApp */,
+				AAE45ABC1D2CA97700C8F2F3 /* MyReallHUAppTests */,
+				AAE45AC71D2CA97700C8F2F3 /* MyReallHUAppUITests */,
+				AAE45AA61D2CA97700C8F2F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE45AA61D2CA97700C8F2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE45AA51D2CA97700C8F2F3 /* MyReallHUApp.app */,
+				AAE45AB91D2CA97700C8F2F3 /* MyReallHUAppTests.xctest */,
+				AAE45AC41D2CA97700C8F2F3 /* MyReallHUAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAE45AA71D2CA97700C8F2F3 /* MyReallHUApp */ = {
+			isa = PBXGroup;
+			children = (
+				AAE45AA81D2CA97700C8F2F3 /* AppDelegate.swift */,
+				AAE45AE41D2D7C3100C8F2F3 /* ButtonClass.swift */,
+				AAA6CD5F1D2E8A8F00321ACA /* ViewController.swift */,
+				AAE45AE21D2D3C1500C8F2F3 /* workDM.swift */,
+				AAE45AE01D2CAA2300C8F2F3 /* realmDBManager.swift */,
+				AAE45AAC1D2CA97700C8F2F3 /* Main.storyboard */,
+				AAE45AAF1D2CA97700C8F2F3 /* Assets.xcassets */,
+				AAE45AB11D2CA97700C8F2F3 /* LaunchScreen.storyboard */,
+				AAE45AB41D2CA97700C8F2F3 /* Info.plist */,
+				AAE45AD61D2CA99500C8F2F3 /* Realm.framework */,
+				AAE45AD71D2CA99500C8F2F3 /* RealmSwift.framework */,
+			);
+			path = MyReallHUApp;
+			sourceTree = "<group>";
+		};
+		AAE45ABC1D2CA97700C8F2F3 /* MyReallHUAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE45ABD1D2CA97700C8F2F3 /* MyReallHUAppTests.swift */,
+				AAE45ABF1D2CA97700C8F2F3 /* Info.plist */,
+			);
+			path = MyReallHUAppTests;
+			sourceTree = "<group>";
+		};
+		AAE45AC71D2CA97700C8F2F3 /* MyReallHUAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAE45AC81D2CA97700C8F2F3 /* MyReallHUAppUITests.swift */,
+				AAE45ACA1D2CA97700C8F2F3 /* Info.plist */,
+			);
+			path = MyReallHUAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE45AA41D2CA97700C8F2F3 /* MyReallHUApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE45ACD1D2CA97700C8F2F3 /* Build configuration list for PBXNativeTarget "MyReallHUApp" */;
+			buildPhases = (
+				AAE45AA11D2CA97700C8F2F3 /* Sources */,
+				AAE45AA21D2CA97700C8F2F3 /* Frameworks */,
+				AAE45AA31D2CA97700C8F2F3 /* Resources */,
+				AAE45ADE1D2CA99F00C8F2F3 /* Embed Frameworks */,
+				AAE45ADF1D2CA9A300C8F2F3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyReallHUApp;
+			productName = MyReallHUApp;
+			productReference = AAE45AA51D2CA97700C8F2F3 /* MyReallHUApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAE45AB81D2CA97700C8F2F3 /* MyReallHUAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE45AD01D2CA97700C8F2F3 /* Build configuration list for PBXNativeTarget "MyReallHUAppTests" */;
+			buildPhases = (
+				AAE45AB51D2CA97700C8F2F3 /* Sources */,
+				AAE45AB61D2CA97700C8F2F3 /* Frameworks */,
+				AAE45AB71D2CA97700C8F2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE45ABB1D2CA97700C8F2F3 /* PBXTargetDependency */,
+			);
+			name = MyReallHUAppTests;
+			productName = MyReallHUAppTests;
+			productReference = AAE45AB91D2CA97700C8F2F3 /* MyReallHUAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAE45AC31D2CA97700C8F2F3 /* MyReallHUAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE45AD31D2CA97700C8F2F3 /* Build configuration list for PBXNativeTarget "MyReallHUAppUITests" */;
+			buildPhases = (
+				AAE45AC01D2CA97700C8F2F3 /* Sources */,
+				AAE45AC11D2CA97700C8F2F3 /* Frameworks */,
+				AAE45AC21D2CA97700C8F2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE45AC61D2CA97700C8F2F3 /* PBXTargetDependency */,
+			);
+			name = MyReallHUAppUITests;
+			productName = MyReallHUAppUITests;
+			productReference = AAE45AC41D2CA97700C8F2F3 /* MyReallHUAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE45A9D1D2CA97600C8F2F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = androw_S;
+				TargetAttributes = {
+					AAE45AA41D2CA97700C8F2F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9KC2M5SRG5;
+					};
+					AAE45AB81D2CA97700C8F2F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AAE45AA41D2CA97700C8F2F3;
+					};
+					AAE45AC31D2CA97700C8F2F3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = AAE45AA41D2CA97700C8F2F3;
+					};
+				};
+			};
+			buildConfigurationList = AAE45AA01D2CA97600C8F2F3 /* Build configuration list for PBXProject "MyReallHUApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE45A9C1D2CA97600C8F2F3;
+			productRefGroup = AAE45AA61D2CA97700C8F2F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE45AA41D2CA97700C8F2F3 /* MyReallHUApp */,
+				AAE45AB81D2CA97700C8F2F3 /* MyReallHUAppTests */,
+				AAE45AC31D2CA97700C8F2F3 /* MyReallHUAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE45AA31D2CA97700C8F2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE45AB31D2CA97700C8F2F3 /* LaunchScreen.storyboard in Resources */,
+				AAE45AB01D2CA97700C8F2F3 /* Assets.xcassets in Resources */,
+				AAE45AAE1D2CA97700C8F2F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE45AB71D2CA97700C8F2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE45AC21D2CA97700C8F2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAE45ADF1D2CA9A300C8F2F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE45AA11D2CA97700C8F2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA6CD601D2E8A8F00321ACA /* ViewController.swift in Sources */,
+				AAE45AE51D2D7C3100C8F2F3 /* ButtonClass.swift in Sources */,
+				AAE45AE11D2CAA2300C8F2F3 /* realmDBManager.swift in Sources */,
+				AAE45AA91D2CA97700C8F2F3 /* AppDelegate.swift in Sources */,
+				AAE45AE31D2D3C1500C8F2F3 /* workDM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE45AB51D2CA97700C8F2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE45ABE1D2CA97700C8F2F3 /* MyReallHUAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAE45AC01D2CA97700C8F2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE45AC91D2CA97700C8F2F3 /* MyReallHUAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE45ABB1D2CA97700C8F2F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE45AA41D2CA97700C8F2F3 /* MyReallHUApp */;
+			targetProxy = AAE45ABA1D2CA97700C8F2F3 /* PBXContainerItemProxy */;
+		};
+		AAE45AC61D2CA97700C8F2F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAE45AA41D2CA97700C8F2F3 /* MyReallHUApp */;
+			targetProxy = AAE45AC51D2CA97700C8F2F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAE45AAC1D2CA97700C8F2F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE45AAD1D2CA97700C8F2F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAE45AB11D2CA97700C8F2F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAE45AB21D2CA97700C8F2F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE45ACB1D2CA97700C8F2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE45ACC1D2CA97700C8F2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE45ACE1D2CA97700C8F2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyReallHUApp",
+				);
+				INFOPLIST_FILE = MyReallHUApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androw.MyReallHUApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AAE45ACF1D2CA97700C8F2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyReallHUApp",
+				);
+				INFOPLIST_FILE = MyReallHUApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androw.MyReallHUApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AAE45AD11D2CA97700C8F2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyReallHUAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androw.MyReallHUAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReallHUApp.app/MyReallHUApp";
+			};
+			name = Debug;
+		};
+		AAE45AD21D2CA97700C8F2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyReallHUAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androw.MyReallHUAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReallHUApp.app/MyReallHUApp";
+			};
+			name = Release;
+		};
+		AAE45AD41D2CA97700C8F2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyReallHUAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androw.MyReallHUAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyReallHUApp;
+			};
+			name = Debug;
+		};
+		AAE45AD51D2CA97700C8F2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyReallHUAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = androw.MyReallHUAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyReallHUApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE45AA01D2CA97600C8F2F3 /* Build configuration list for PBXProject "MyReallHUApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE45ACB1D2CA97700C8F2F3 /* Debug */,
+				AAE45ACC1D2CA97700C8F2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE45ACD1D2CA97700C8F2F3 /* Build configuration list for PBXNativeTarget "MyReallHUApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE45ACE1D2CA97700C8F2F3 /* Debug */,
+				AAE45ACF1D2CA97700C8F2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE45AD01D2CA97700C8F2F3 /* Build configuration list for PBXNativeTarget "MyReallHUAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE45AD11D2CA97700C8F2F3 /* Debug */,
+				AAE45AD21D2CA97700C8F2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE45AD31D2CA97700C8F2F3 /* Build configuration list for PBXNativeTarget "MyReallHUAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE45AD41D2CA97700C8F2F3 /* Debug */,
+				AAE45AD51D2CA97700C8F2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE45A9D1D2CA97600C8F2F3 /* Project object */;
+}

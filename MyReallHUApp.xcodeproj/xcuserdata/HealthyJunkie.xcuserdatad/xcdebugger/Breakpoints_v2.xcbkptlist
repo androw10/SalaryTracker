@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyReallHUApp/realmDBManager.swift"
+            timestampString = "489493759.216063"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "WorkDay"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyReallHUApp.WorkDay.__deallocating_deinit"
+                  moduleName = "MyReallHUApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/HealthyJunkie/Desktop/Workspace/MyReallHUApp/MyReallHUApp/realmDBManager.swift"
+                  timestampString = "489493759.585594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyReallHUApp.WorkDay.init () -&gt; MyReallHUApp.WorkDay"
+                  moduleName = "MyReallHUApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/HealthyJunkie/Desktop/Workspace/MyReallHUApp/MyReallHUApp/realmDBManager.swift"
+                  timestampString = "489493759.585781"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "21">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyReallHUApp.WorkDay.init (value : Swift.AnyObject) -&gt; MyReallHUApp.WorkDay"
+                  moduleName = "MyReallHUApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/HealthyJunkie/Desktop/Workspace/MyReallHUApp/MyReallHUApp/realmDBManager.swift"
+                  timestampString = "489493759.585871"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyReallHUApp.WorkDay.init (realm : __ObjC.RLMRealm, schema : __ObjC.RLMObjectSchema) -&gt; MyReallHUApp.WorkDay"
+                  moduleName = "MyReallHUApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/HealthyJunkie/Desktop/Workspace/MyReallHUApp/MyReallHUApp/realmDBManager.swift"
+                  timestampString = "489493759.585952"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyReallHUApp.WorkDay.init (value : Swift.AnyObject, schema : __ObjC.RLMSchema) -&gt; MyReallHUApp.WorkDay"
+                  moduleName = "MyReallHUApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/HealthyJunkie/Desktop/Workspace/MyReallHUApp/MyReallHUApp/realmDBManager.swift"
+                  timestampString = "489493759.586032"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "71">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyReallHUApp/realmDBManager.swift"
+            timestampString = "489536220.262672"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "Total()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyReallHUApp/workDM.swift"
+            timestampString = "489672452.887005"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "TotalMoney()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
